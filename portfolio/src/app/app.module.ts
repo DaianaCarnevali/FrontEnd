@@ -13,6 +13,7 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
+import { RegresarComponent } from './regresar/regresar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     HabilidadesComponent,
     ContactoComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    RegresarComponent
   ],
   imports: [
     BrowserModule,
